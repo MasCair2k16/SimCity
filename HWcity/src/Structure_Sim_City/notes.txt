@@ -1,0 +1,18 @@
+NOTES TO MYSELF:
+
+BassPerson-parent class of Police, Teacher, and kid
+Buildingbass-parent class of CityHall and School
+
+Employee- interface class for bassPersons
+
+kid- Child class of bassPerson. No employee
+Police- child class of bassPerson. Employee
+teacher- child class of bassPerson. Employee
+
+Functions to Display:
+toDisplay()-> Displays all facts of that specific person.
+
+
+schools out- everybody is in the sqaure.
+
+
