@@ -13,26 +13,39 @@ public abstract class buildingBass {
     protected String address;
     protected Integer rooms;
 
-    //Defualt Constructor...
+    /**Default Constructor...
+    * Default Constructor for buildingBass. 
+    * @method
+    */
     buildingBass() {
         name = "Great Wold Lodge";
         address = "437 RiverLodge Rd, Chehalis, Washington";
         rooms = 23;
     }
 
-    // Constructor...
+    /**
+    * Constructor...
+    * Constructor for buildingBass. 
+    * @method
+    */
     buildingBass(String name, String address, int rooms) {
         this.name = name;
         this.address = address;
         this.rooms = rooms;
     }
-
-    // getFunctions
+    
+    /** getFunctions
+    * getFunctions to retrieve data for user from bassBuilding Class 
+    * @method
+    */
     public String getName() {return name;}
     public String getAddress() {return address;}
     public int getRooms() {return rooms;}
 
-    // setFunctions
+     /** SetFunctions
+    * setFunctions to set data for user from bassBuilding Class 
+    * @method
+    */
     public void setName(String inputName) {name = inputName;}
     public void setAddress(String inputAddress) {address = inputAddress;}
     public void setRooms(int inputRooms) {rooms = inputRooms;}
