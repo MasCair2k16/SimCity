@@ -27,18 +27,28 @@ public class bassPerson {
     }
 
     // Constructor
+    /**
+    * bassPerson Constructor.
+    * @param name, int, cellNumber
+    */
     bassPerson(String name, int age, String cellNumber) {
         this.name = name;
         this.age = age;
         this.cellNumber = cellNumber;
     }
 
-    // Get Functions...
+    /** Get Functions...
+    * Used to capture data from the class
+    *@method 
+    */
     public String getName() {return name;}
     public Integer getAge() {return age;}
     public String getCellNumber() {return cellNumber;}
 
-    // Set Functions...
+    /** Set Functions...
+    * Used to capture data from the the userInput
+    *@method 
+    */
     public void setName(String inputName) {name = inputName;}
     public void setAge(int inputAge) {age = inputAge;}
     public void setCellNumber(String inputCellNumber) {cellNumber = inputCellNumber;}
